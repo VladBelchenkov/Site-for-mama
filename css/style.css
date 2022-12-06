@@ -1,0 +1,89 @@
+ /* scroll to top */
+ #button {
+   display: inline-block;
+   text-align: center;
+   border-radius: 4px;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   transition: background-color .3s,
+     opacity .5s, visibility .5s;
+   opacity: 0;
+   z-index: 1000;
+   pointer-events: none;
+   padding: 0.5rem;
+   color: #2e2725 !important
+ }
+
+ #button i {
+   font-size: 32px;
+   color: #2e2725;
+ }
+
+ #button:hover {
+   cursor: pointer;
+ }
+
+ #button.show {
+   opacity: 1;
+   pointer-events: all;
+ }
+
+ #boxes a:hover,
+ #boxes a:visited,
+ #boxes a,
+ #boxes a:link,
+ #boxes a:active {
+   text-decoration: none;
+   color: white;
+ }
+
+ #services ul {
+   padding-left: 20%;
+   padding-bottom: 2rem;
+ }
+
+
+ @media(max-width: 768px) {
+   .w-50 {
+     width: 100% !important;
+   }
+
+   #services ul {
+     text-align: left;
+     padding-left: 10%;
+   }
+
+   /* .carousel-control-prev */
+   .carousel-control-next-icon {
+     position: absolute;
+     right: -40px;
+   }
+
+   .carousel-control-prev-icon {
+     position: absolute;
+     left: -40px;
+   }
+
+   .telegram-border {
+     border-top: 0 !important;
+   }
+ }
+
+ @media(min-width: 1400px) {
+   .instagram-border {
+     border-left: 0 !important;
+     border-bottom: 0 !important; 
+     border-right: 0 !important; 
+   }
+
+   .email-border {
+     border-bottom: 0 !important;
+     border-right: 0 !important; 
+   }
+
+   .telegram-border {
+     border-right: 0 !important;
+     border-bottom: 0 !important;
+   }
+ }
