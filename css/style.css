@@ -29,20 +29,32 @@
    pointer-events: all;
  }
 
- #boxes a:hover,
- #boxes a:visited,
- #boxes a,
- #boxes a:link,
- #boxes a:active {
+ a:hover,
+ a:visited,
+ a,
+ a:link,
+ a:active {
    text-decoration: none;
    color: white;
  }
 
  #services ul {
    padding-left: 20%;
-   padding-bottom: 2rem;
+   padding-bottom: 1rem;
  }
 
+ #sign-up a:hover,
+ #sign-up a:visited,
+ #sign-up a,
+ #sign-up a:link,
+ #sign-up a:active {
+   text-decoration: none;
+   color: rgb(170, 57, 57);
+ }
+
+ #services .btn { 
+   margin-bottom: 1rem;
+ }
 
  @media(max-width: 768px) {
    .w-50 {
@@ -68,22 +80,36 @@
    .telegram-border {
      border-top: 0 !important;
    }
+   .row-cols-4>* {
+       flex: 0 0 auto;
+       width: 100%
+   }
+   .row-cols-2>* {
+       flex: 0 0 auto;
+       width: 100%
+   }
  }
 
  @media(min-width: 1400px) {
    .instagram-border {
      border-left: 0 !important;
-     border-bottom: 0 !important; 
-     border-right: 0 !important; 
+     border-bottom: 0 !important;
+     border-right: 0 !important;
    }
 
    .email-border {
      border-bottom: 0 !important;
-     border-right: 0 !important; 
+     border-right: 0 !important;
    }
 
    .telegram-border {
      border-right: 0 !important;
      border-bottom: 0 !important;
    }
+ } 
+
+ @media(min-width: 1400px) {
+     .card-body {
+         height: 247px !important
+     }
  }

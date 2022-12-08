@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="RU">
 
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,13 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> 
 
-    <title> Mama </title> 
+    <title> Mama </title>
+    
 </head>
 
 <body>
-
     <a href="#" id="button">
         <i class="bi bi-arrow-up-circle-fill h1"></i>
     </a>
@@ -63,18 +63,25 @@
                     <ul>
                         <p class="lead my-4">Помогаю:</p>
                         <li>
-                            <p class="fw-normal"> Пункт 1 Lorem ipsum dolor sit amet. </p>
+                            <p class="fw-normal"> Созависимые отношения </p>
                         </li>
                         <li>
-                            <p class="fw-normal"> Пункт 2 Lorem ipsum dolor sit amet. </p>
+                            <p class="fw-normal"> Выход из созависимых отношений </p>
                         </li>
                         <li>
-                            <p class="fw-normal"> Пункт 2 Lorem ipsum dolor sit amet. </p>
+                            <p class="fw-normal"> Восстановление самооценки </p>
                         </li>
                     </ul>
+                    <p class="my-4">
+                        Рассказывая свою историю, вы освобождаете место для себя. Ваше место в вашей жизни занято
+                        сложным и утомительным опытом, через который вам пришлось пройти. <br>
+                        Жизнь предлагает очень много смыслов и красоты, которую вы обязательно увидите, освободившись от
+                        токсичных людей и обстоятельств, которые вас окружают. <br>
+                        Выбрать себя, расти и развиваться — это я предлагаю сделать главным в вашей жизни.
+
+                    </p>
                 </div>
-                <img class="img-fluid w-50 d-none d-sm-block" src="images/Фото/photo_2022-12-05_12-10-39 (2).jpg"
-                    alt="">
+                <img class="img-fluid w-50 d-sm-block" src="images/Фото/photo_2022-12-05_12-10-39 (2).jpg" alt="">
             </div>
         </div>
     </section>
@@ -82,47 +89,50 @@
     <!-- Boxes -->
     <section class="p-5 reveal-always" id="boxes">
         <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-md">
+            <div class="row row-cols-2 text-center g-4">
+                <div class="col">
                     <div class="card bg-dark navbar-dark text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <i class="bi bi-laptop"></i>
+                                <i class="bi bi-person"></i>
                             </div>
                             <h3 class="card-title mb-3">
                                 Индивидуальная консультация
                             </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, et.
-                            </p>
-                            <button type="button" class="btn btn-primary"><a href="" class="p-2">Подробнее
+                            <p class="card-text"> Мы совместно изучим вашу историю, чтобы лучше узнать о ваших чувствах
+                                и моделях отношения к себе и к другим Lorem, ipsum dolor. <br> </p>
+                            <button type="button" class="btn btn-primary"
+                                onclick=" $('#services-carousel').carousel(0);"><a href="#services"
+                                    class="pb-5">Подробнее
                                     -></a></button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col">
                     <div class="card bg-secondary text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <i class="bi bi-house"></i>
+                                <i class="bi bi-calendar-check"></i>
                             </div>
-                            <h3 class="card-title mb-3">
-                                Занятие Марафон
+                            <h3 class="card-title mb-2">
+                                Консультация- марафон
                             </h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam soluta nesciunt at
-                                voluptatum ea explicabo facilis in a perferendis repellat.
+                                В этом формате встречи мы исследуем вопрос (проблему) со всех сторон. Выход есть всегда.
+                                Моя задача показать вам этот выход и возможно, даже не один.
                             </p>
-                            <button type="button" class="btn btn-primary"><a href="" class="p-2">Подробнее
+                            <button type="button" class="btn btn-primary"
+                                onclick=" $('#services-carousel').carousel(1);"><a href="#services"
+                                    class="p-2">Подробнее
                                     -></a></button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col">
                     <div class="card bg-dark text-light navbar-dark">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <i class="bi bi-people"></i>
+                                <i class="bi bi-balloon-heart"></i>
                             </div>
                             <h3 class="card-title mb-3">
                                 Курс "Самооценка"
@@ -132,7 +142,29 @@
                                 quisquam accusamus, <br> mollitia voluptate repellat deleniti fuga libero amet quam
                                 ratione quaerat, unde nostrum!
                             </p>
-                            <button type="button" class="btn btn-primary"><a href="" class="p-2">Подробнее
+                            <button type="button" class="btn btn-primary"
+                                onclick=" $('#services-carousel').carousel(2);"><a href="#services"
+                                    class="p-2">Подробнее
+                                    -></a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-postage-heart"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Консультация с использованием МАК-карт
+                            </h3>
+                            <p class="card-text">
+                                Инструмент метафорических картинок позволяет вам достать всю информацию из подсознания.
+                                Как известно, все ответы у вас уже есть, надо только их увидеть.
+                            </p>
+                            <button type="button" class="btn btn-primary"
+                                onclick=" $('#services-carousel').carousel(3);"><a href="#services"
+                                    class="p-2">Подробнее
                                     -></a></button>
                         </div>
                     </div>
@@ -146,9 +178,9 @@
     <section class="bg-dark text-light p-5 pt-lg-5 text-center text-md-start reveal-always" id="about-me">
         <div class="container">
 
-            <div class="row row-cols-sm-1 row-cols-lg-2 p-1">
+            <div class="row row-cols-2 p-1">
                 <div class="col">
-                    <img class="img-fluid d-none d-sm-block" src="images/Фото/photo_2022-12-05_12-55-50.jpg" alt="">
+                    <img class="img-fluid d-sm-block" src="images/Фото/photo_2022-12-05_12-55-50.jpg" alt="">
                 </div>
                 <div class="col">
                     <div>
@@ -192,53 +224,82 @@
     <!-- services -->
     <section class="p-5 pt-lg-5 text-center text-md-start reveal-always" id="services">
         <div class="container">
-            <div id="servicescarousel" class="carousel slide carousel-dark" data-bs-ride="false">
+            <div id="services-carousel" class="carousel slide carousel-dark" data-bs-ride="false">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#servicescarousel" data-bs-slide-to="0" class="active"
+                    <button type="button" data-bs-target="#services-carousel" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#servicescarousel" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#services-carousel" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#servicescarousel" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#services-carousel" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#services-carousel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <h2 class="text-center mb-4"> <br>Индивидуальная консультация</h2>
-                        <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p class="lead text-center">Моя задача создать непредвзятое пространство, где нет осуждения и
+                            оценивания. Мы с любопытством изучим вашу историю, чтобы лучше узнать о ваших чувствах и
+                            моделях отношения к себе и к другим. </p>
                         <ul>
-                            <li>Quo perferendis ex, modi doloribus nobis</li>
-                            <li>inventore suscipit tempora tempore assumenda at enim impedit maxime harum labore eveniet</li>
-                            <li>error libero amet numquam.</li>
-                            <li>ventore suscipit tempora tempore assumenda at ror libero amet numqua </li>
-                        </ul> 
+                            <li>Проходит офлайн если вы в москве и хотите встретиться лично</li>
+                            <li>Проходит онлайн в любой точке мира </li>
+                            <li>Продолжительность 55 минут</li>
+                            <li>Стоимость 2500р</li>
+                        </ul>
+                        <div class="text-center pb-4"><button type="button" class="btn btn-primary "><a href=""
+                                    class="p-2">Записаться -></a></button></div>
                     </div>
                     <div class="carousel-item">
                         <h2 class="text-center mb-4"> <br>Марафон консультация</h2>
-                        <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p class="lead text-center">В этом формате встречи мы исследуем вопрос (проблему) со всех
+                            сторон. Выход есть всегда. Моя задача показать вам этот выход и возможно, даже не один. Даже
+                            если итог встречи будет казаться вам фантастическим и невероятным, я укреплю вас в мысли,
+                            что человек может все, даже самое невероятное. </p>
                         <ul>
-                            <li>Quo perferendis ex, modi doloribus nobis</li>
-                            <li>inventore suscipit tempora tempore assumenda at enim impedit maxime harum labore eveniet</li>
-                            <li>error libero amet numquam.</li>
-                            <li>ventore suscipit tempora tempore assumenda at ror libero amet numqua </li>
-                        </ul> 
+                            <li>Проходит офлайн если вы в москве и хотите встретиться лично</li>
+                            <li>Проходит онлайн в любой точке мира </li>
+                            <li>Продолжительность «пока не придем к результату»</li>
+                            <li>Присутствуют элементы коучинга </li>
+                            <li>Стоимость 2500 р за каждые 60 минут </li>
+                        </ul>
+                        <div class="text-center pb-4"><button type="button" class="btn btn-primary "><a href=""
+                                    class="p-2">Записаться -></a></button></div>
                     </div>
                     <div class="carousel-item">
                         <h2 class="text-center mb-4"> <br>Курс Самооценка</h2>
                         <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         <ul>
                             <li>Quo perferendis ex, modi doloribus nobis</li>
-                            <li>inventore suscipit tempora tempore assumenda at enim impedit maxime harum labore eveniet</li>
+                            <li>inventore suscipit tempora tempore assumenda at enim impedit maxime harum labore eveniet
+                            </li>
                             <li>error libero amet numquam.</li>
                             <li>ventore suscipit tempora tempore assumenda at ror libero amet numqua </li>
-                        </ul> 
+                        </ul>
+                        <div class="text-center pb-4"><button type="button" class="btn btn-primary "><a href=""
+                                    class="p-2">Записаться -></a></button></div>
+                    </div>
+                    <div class="carousel-item">
+                        <h2 class="text-center mb-4"> <br>Мак-Карты</h2>
+                        <p class="lead text-center">Инструмент метафорических картинок позволяет вам достать всю
+                            информацию из подсознания. Как известно, все ответы у вас уже есть, надо только их увидеть.
+                            Это не гипноз и не ворожба. Это сертифицированный метод, который мягко выводит вас на полное
+                            видение ситуации и вывода из нее. Я нахожусь с вами в роли проводника в глубину вашей души и
+                            психики. </p>
+                        <ul>
+                            <li>Проходит при личной встрече</li>
+                            <li>Стоимость 2500 за 55 минут</li>
+                        </ul>
+                        <div class="text-center pb-4"><button type="button" class="btn btn-primary "><a href=""
+                                    class="p-2">Записаться -></a></button></div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#servicescarousel"
+                <button class="carousel-control-prev" type="button" data-bs-target="#services-carousel"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#servicescarousel"
+                <button class="carousel-control-next" type="button" data-bs-target="#services-carousel"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -247,8 +308,47 @@
         </div>
     </section>
 
+    <section class="p-5 reveal-always" id="questions">
+        <div class="container">
+            <div class="row row-cols-4 text-center g-4">
+                <div class="col">
+                    <div class="card bg-dark navbar-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Отзыв от</h5>
+                        </div>
+                        <img class="img-fluid d-sm-block" src="images/Аннотация 2022-12-08 123158.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark navbar-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Отзыв от</h5>
+                        </div>
+                        <img class="img-fluid d-sm-block" src="images/Аннотация 2022-12-06 164903.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark navbar-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Отзыв от</h5>
+                        </div>
+                        <img class="img-fluid d-sm-block" src="images/Аннотация 2022-12-06 165036.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark navbar-dark text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Отзыв от</h5>
+                        </div>
+                        <img class="img-fluid d-sm-block" src="images/Аннотация 2022-12-06 165138.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Questions -->
-    <section class="p-5 pt-lg-5 text-center text-md-start reveal-always" id="questions">
+    <section class="p-2 pt-lg-2 text-center text-md-start reveal-always" id="questions">
         <div class="container">
             <h2 class="text-center mb-4"> <br>Часто задаваемые вопросы</h2>
             <div class="accordion" id="accordionExample">
@@ -301,37 +401,39 @@
         <div class="container text-center">
             <h2 class="mb-4">Ваше здоровье начинается здесь </h2>
             <h2 class="mb-4 text-warning">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
-            <div class="row row-cols-sm-1 row-cols-lg-2 p-1">
-                <div class="col p-1">
-                    <input type="text" class="form-control" id="Name" required placeholder="Как вас зовут?">
+            <form method="post" name="email-form" action="PHP/email.php">
+                <div class="row row-cols-sm-1 row-cols-lg-2 p-1">
+                    <div class="col p-1">
+                        <input type="text" class="form-control" id="Name" required placeholder="Как вас зовут?*">
+                    </div>
+                    <div class="col p-1">
+                        <input type="tel" class="form-control" id="telephone" required
+                            placeholder="Контактный номер телефона*">
+                    </div>
                 </div>
-                <div class="col p-1">
-                    <input type="tel" class="form-control" id="telephone" required
-                        placeholder="Контактный номер телефона">
+                <div class="row p-1">
+                    <div class="col p-1">
+                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required
+                            placeholder="Электронная почта*">
+                    </div>
                 </div>
-            </div>
-            <div class="row p-1">
-                <div class="col p-1">
-                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required
-                        placeholder="Электронная почта">
+                <div class="row p-1">
+                    <div class="col p-1">
+                        <input type="text" class="form-control" id="InputMessage" aria-describedby="message" required
+                            placeholder="Ваши комментарии">
+                    </div>
                 </div>
-            </div>
-            <div class="row p-1">
-                <div class="col p-1">
-                    <input type="text" class="form-control" id="InputMessage" aria-describedby="message" required
-                        placeholder="Ваши комментарии">
+                <div class="row p-1">
+                    <div class="col p-1">
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </div>
                 </div>
-            </div>
-            <div class="row p-1">
-                <div class="col p-1">
-                    <button type="submit" class="btn btn-primary">Отправить</button>
+                <div class="row pb-3 pt-5">
+                    <div class="col">
+                        <h2 class="mb-4">Мои контакты:</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row pb-3 pt-5">
-                <div class="col">
-                    <h2 class="mb-4">Мои контакты:</h2>
-                </div>
-            </div>
+            </form>
             <div class="row">
                 <div class="col border p-2 instagram-border">
                     <p>Instagram: <br> <a href="https://www.instagram.com/belcencovatat/" target="_blank">
@@ -351,15 +453,17 @@
 
     <footer class="p-5 bg-dark text-white position-relative reveal-always">
         <div class="container">
-            <p class="lead text-center">Copyright &copy; 2022 Mama site</p>
+            <p class="lead text-center">Copyright &copy; 2022 Mama site</p> <br> <a href="" target="_blank">
+                <p class="text-center">Политика конфиденциальности</p>
+            </a>
         </div>
-        <p id="texto"></p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="PHP/email.php">
 
     <script>
         ScrollReveal().reveal('.reveal-always', { origin: 'top', reset: true, duration: 1500 })
