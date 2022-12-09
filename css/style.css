@@ -1,3 +1,201 @@
+ /* text styles*/
+ html {
+   font-size: 18px;
+ }
+
+ h1,
+ h2 {
+   font-family: 'Comfortaa', serif;
+   font-size: 3rem;
+ }
+
+ h3 {
+   font-family: 'Comfortaa', serif;
+   font-size: 2.5rem;
+ }
+
+ h5 {
+   font-family: 'Comfortaa', serif;
+   font-size: 1.5rem;
+ }
+
+ p {
+   font-family: 'Montserrat', serif;
+   font-size: 1.3rem;
+ }
+
+ /* colors */
+
+ .bg-dark {
+   background-color: #6e7b82 !important
+ }
+
+ .navbar-dark {
+   background-color: #6e7b82 !important
+ }
+
+ .text-warning {
+   color: #923921 !important
+ }
+
+ .bg-secondary {
+   background-color: #2b5c93 !important
+ }
+
+ .btn-primary {
+   border: none;
+   text-decoration: none;
+   background-color: #8a7872 !important
+ }
+
+ /* links */
+ a:hover,
+ a:visited,
+ a,
+ a:link,
+ a:active {
+   text-decoration: none;
+   color: white;
+ }
+
+ #article a:hover,
+ #article-three a:hover,
+ #article-six a:hover,
+ #article a:visited,
+ #article-three a:visited,
+ #article-six a:visited,
+ #article a,
+ #article-three a,
+ #article-six a,
+ #article a:link,
+ #article-three a:link,
+ #article-six a:link,
+ #article a:active,
+ #article-three a:active,
+ #article-six a:active #contacts a:hover,
+ #contacts a:visited,
+ #contacts a,
+ #contacts a:link,
+ #contacts a:active {
+   text-decoration: none;
+   color: rgb(170, 57, 57);
+ }
+
+ /* services */
+ #services ul {
+   padding-left: 20%;
+   padding-bottom: 1rem;
+ }
+
+ #services .btn {
+   margin-bottom: 1rem;
+ }
+
+ /* articles */
+ #article .card,
+ #article-three .card,
+ #article-six .card {
+    background-color: #f8f9fa;
+    border: 0;
+ }
+
+ @media(max-width: 768px) {
+
+   /* images */
+   .w-50 {
+     width: 100% !important;
+   }
+   #replies img{
+    width: 65%;
+   }
+   #main-article img,
+   #first-article img{
+    width: auto;
+    height: auto;
+   }
+
+   /* texts */
+   html {
+     font-size: 15px;
+   }
+   #boxes h3 {
+     font-size: 2.3rem;
+   } 
+
+   #services ul {
+     text-align: left;
+     padding-left: 10%;
+   }
+
+   #sign-up h2{
+    font-size: 2.5rem;
+   }
+
+   #first-article p{
+    font-size: 1.2rem; 
+   }
+
+   /* carousel */
+   .carousel-control-next-icon {
+     position: absolute;
+     right: -15px;
+   }
+
+   .carousel-control-prev-icon {
+     position: absolute;
+     left: -15px;
+   }
+
+   /* grid */
+   .row-cols-4>* {
+     flex: 0 0 auto;
+     width: 100%
+   }
+
+   .row-cols-2>* {
+     flex: 0 0 auto;
+     width: 100%
+   }
+   .row-cols-3>* {
+     flex: 0 0 auto;
+     width: 100%
+   }
+
+   /* misc */
+   .telegram-border,
+   .email-border {
+     border-top: 0 !important;
+   }
+ }
+
+ @media(min-width: 1400px) {
+   .instagram-border {
+     border-left: 0 !important;
+     border-bottom: 0 !important;
+     border-right: 0 !important;
+   }
+
+   .email-border {
+     border-bottom: 0 !important;
+     border-right: 0 !important;
+   }
+
+   .telegram-border {
+     border-right: 0 !important;
+     border-bottom: 0 !important;
+   }
+
+   /* boxes */
+   #boxes .card {
+     height: 360px;
+   }
+
+   #boxes h3 {
+     font-size: 1.8rem;
+   }
+ }
+
+
  /* scroll to top */
  #button {
    display: inline-block;
@@ -27,89 +225,4 @@
  #button.show {
    opacity: 1;
    pointer-events: all;
- }
-
- a:hover,
- a:visited,
- a,
- a:link,
- a:active {
-   text-decoration: none;
-   color: white;
- }
-
- #services ul {
-   padding-left: 20%;
-   padding-bottom: 1rem;
- }
-
- #sign-up a:hover,
- #sign-up a:visited,
- #sign-up a,
- #sign-up a:link,
- #sign-up a:active {
-   text-decoration: none;
-   color: rgb(170, 57, 57);
- }
-
- #services .btn { 
-   margin-bottom: 1rem;
- }
-
- @media(max-width: 768px) {
-   .w-50 {
-     width: 100% !important;
-   }
-
-   #services ul {
-     text-align: left;
-     padding-left: 10%;
-   }
-
-   /* .carousel-control-prev */
-   .carousel-control-next-icon {
-     position: absolute;
-     right: -40px;
-   }
-
-   .carousel-control-prev-icon {
-     position: absolute;
-     left: -40px;
-   }
-
-   .telegram-border {
-     border-top: 0 !important;
-   }
-   .row-cols-4>* {
-       flex: 0 0 auto;
-       width: 100%
-   }
-   .row-cols-2>* {
-       flex: 0 0 auto;
-       width: 100%
-   }
- }
-
- @media(min-width: 1400px) {
-   .instagram-border {
-     border-left: 0 !important;
-     border-bottom: 0 !important;
-     border-right: 0 !important;
-   }
-
-   .email-border {
-     border-bottom: 0 !important;
-     border-right: 0 !important;
-   }
-
-   .telegram-border {
-     border-right: 0 !important;
-     border-bottom: 0 !important;
-   }
- } 
-
- @media(min-width: 1400px) {
-     .card-body {
-         height: 247px !important
-     }
  }

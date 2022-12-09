@@ -8,10 +8,10 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat">
 
     <title> Mama </title>
-    
 </head>
 
 <body>
@@ -19,7 +19,7 @@
         <i class="bi bi-arrow-up-circle-fill h1"></i>
     </a>
 
-    <!-- navbar fixed-top -->
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 reveal-once">
         <div class="container">
             <a href="#" class="navbar-brand">Сайт мамы</a>
@@ -31,13 +31,22 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <a href="" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#about-me" class="nav-link">Обо мне</a>
                     </li>
                     <li class="nav-item">
                         <a href="#services" class="nav-link">Услуги</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#replies" class="nav-link">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#sign-up" class="nav-link">Записаться</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="HTML/stati.html" class="nav-link">Статьи</a>
                     </li>
                 </ul>
             </div>
@@ -48,6 +57,10 @@
                         <a href="https://www.instagram.com/belcencovatat/" target="_blank"> <img
                                 src="images/icons8-instagram.svg" alt=""></a>
                     </li>
+                    <li class="nav-item">
+                        <a href="https://t.me/believename" target="_blank"> <img src="images/icons8-telegram-app.svg"
+                                alt=""></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -55,11 +68,11 @@
 
     <!-- Showcase -->
 
-    <section class="bg-light text-dark p-5 pt-lg-5 text-center text-md-start reveal-always" id="showcase">
+    <section class="bg-light text-dark p-5 pt-lg-5 text-md-start reveal-always" id="showcase">
         <div class="container">
             <div class="d-md-flex align-items-center justify-content-between">
                 <div>
-                    <h1><span class="text-warning">Татьяна Бельченкова</span></h1>
+                    <h1 class="text-center"><span class="text-warning">Татьяна Бельченкова</span></h1>
                     <ul>
                         <p class="lead my-4">Помогаю:</p>
                         <li>
@@ -73,15 +86,15 @@
                         </li>
                     </ul>
                     <p class="my-4">
-                        Рассказывая свою историю, вы освобождаете место для себя. Ваше место в вашей жизни занято
+                        Рассказывая свою историю, вы освобождаете место для себя. Ваше место в вашей жизни занято <br>
                         сложным и утомительным опытом, через который вам пришлось пройти. <br>
-                        Жизнь предлагает очень много смыслов и красоты, которую вы обязательно увидите, освободившись от
+                        Жизнь предлагает очень много смыслов и красоты, которую вы обязательно увидите, освободившись от <br>
                         токсичных людей и обстоятельств, которые вас окружают. <br>
                         Выбрать себя, расти и развиваться — это я предлагаю сделать главным в вашей жизни.
 
                     </p>
                 </div>
-                <img class="img-fluid w-50 d-sm-block" src="images/Фото/photo_2022-12-05_12-10-39 (2).jpg" alt="">
+                <img class="img-fluid w-50 d-sm-block p-4" src="images/Фото/photo_2022-12-05_12-10-39 (2).jpg" alt="">
             </div>
         </div>
     </section>
@@ -91,7 +104,7 @@
         <div class="container">
             <div class="row row-cols-2 text-center g-4">
                 <div class="col">
-                    <div class="card bg-dark navbar-dark text-light">
+                    <div class="card bg-secondary navbar-dark text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
                                 <i class="bi bi-person"></i>
@@ -100,7 +113,8 @@
                                 Индивидуальная консультация
                             </h3>
                             <p class="card-text"> Мы совместно изучим вашу историю, чтобы лучше узнать о ваших чувствах
-                                и моделях отношения к себе и к другим Lorem, ipsum dolor. <br> </p>
+                                и моделях отношения к себе и к другим. Непредвзятое пространство без оценивания и
+                                осуждения. <br> </p>
                             <button type="button" class="btn btn-primary"
                                 onclick=" $('#services-carousel').carousel(0);"><a href="#services"
                                     class="pb-5">Подробнее
@@ -109,7 +123,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-secondary text-light">
+                    <div class="card bg-dark text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
                                 <i class="bi bi-calendar-check"></i>
@@ -138,9 +152,8 @@
                                 Курс "Самооценка"
                             </h3>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius earum praesentium
-                                quisquam accusamus, <br> mollitia voluptate repellat deleniti fuga libero amet quam
-                                ratione quaerat, unde nostrum!
+                                Что мешает качественному проживанию жизни? Причина этому - Низкая самооценка. Собрать по
+                                кирпичикам новую самооценку-это возможно за 1 месяц.
                             </p>
                             <button type="button" class="btn btn-primary"
                                 onclick=" $('#services-carousel').carousel(2);"><a href="#services"
@@ -156,7 +169,7 @@
                                 <i class="bi bi-postage-heart"></i>
                             </div>
                             <h3 class="card-title mb-3">
-                                Консультация с использованием МАК-карт
+                                МАК-карты
                             </h3>
                             <p class="card-text">
                                 Инструмент метафорических картинок позволяет вам достать всю информацию из подсознания.
@@ -175,7 +188,7 @@
 
     <!-- about me -->
 
-    <section class="bg-dark text-light p-5 pt-lg-5 text-center text-md-start reveal-always" id="about-me">
+    <section class="bg-dark text-light p-5 pt-lg-5 textstart reveal-always" id="about-me">
         <div class="container">
 
             <div class="row row-cols-2 p-1">
@@ -191,13 +204,32 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#question-one">
-                                        О моем образовании
+                                        <p>О моем образовании</p>
                                     </button>
                                 </h2>
                                 <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
-                                    <div class="accordion-body"> Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit.
-                                        Odit temporibus qui laudantium dolor voluptas asperiores. </div>
+                                    <div class="accordion-body">
+                                        <p>
+                                            Свое базовое психологическое образование я получила в
+                                            Институте прикладной психологии в социальной сфере по направлению
+                                            "практическая
+                                            психология и коучинг, современные подходы в работе с клиентами". <br>
+                                            Для того чтобы работать в более узком направлении, я прошла обучение "работа
+                                            с
+                                            метафорическими картами" и приобрела компетенции для психологической
+                                            практики в
+                                            работе с психопатологиями. <br>
+                                            В психологию пришла из тренерства. Окончила международную школу LCBT, где
+                                            прошла
+                                            сертификацию на бизнес-тренера. <br>
+                                            Тренерская работа и руководство обучающей школой привело меня к более
+                                            глубокому
+                                            изучению человеческой психики и поведения. <br>
+                                            Коучинг идет параллельно консультациям, ведь мы не только обнаруживаем
+                                            темные
+                                            места в психике, но и ищем выход на новый, качественный уровень жизни.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <!-- item 2 -->
@@ -205,7 +237,7 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#question-two">
-                                        О моих методах работы
+                                        <p>О моих методах работы</p>
                                     </button>
                                 </h2>
                                 <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
@@ -222,7 +254,7 @@
     </section>
 
     <!-- services -->
-    <section class="p-5 pt-lg-5 text-center text-md-start reveal-always" id="services">
+    <section class="text-center text-md-start reveal-always" id="services">
         <div class="container">
             <div id="services-carousel" class="carousel slide carousel-dark" data-bs-ride="false">
                 <div class="carousel-indicators">
@@ -268,19 +300,28 @@
                     </div>
                     <div class="carousel-item">
                         <h2 class="text-center mb-4"> <br>Курс Самооценка</h2>
-                        <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p class="lead text-center">Качество жизни и развития личности на прямую зависит от самооценки.
+                            Она формируется в раннем детстве и юности. Во взрослом возрасте, мы имеем то, что не
+                            дотягивает, а порой и очень мешает качественному проживанию жизни. <br>
+                            Хорошая новость - самооценку можно поднять или даже сформировать заново, и поможет вам в
+                            этом
+                            мой курс – «Самооценка».
+                        </p>
                         <ul>
-                            <li>Quo perferendis ex, modi doloribus nobis</li>
-                            <li>inventore suscipit tempora tempore assumenda at enim impedit maxime harum labore eveniet
-                            </li>
-                            <li>error libero amet numquam.</li>
-                            <li>ventore suscipit tempora tempore assumenda at ror libero amet numqua </li>
+                            <li>Проходит онлайн в любой точке мира</li>
+                            <li>Время прохождения расчитано на 1 месяц </li>
+                            <li>Информация разбита на 12 блоков</li>
+                            <li>Упражнения и задания</li>
+                            <li>Чат со мной</li>
+                            <li>4 встречи по 55 минут </li>
+                            <li>Стоимость 12800р за весь курс</li>
                         </ul>
+                        <p class="fs-6">* все материалы остаются у вас навсегда</p>
                         <div class="text-center pb-4"><button type="button" class="btn btn-primary "><a href=""
                                     class="p-2">Записаться -></a></button></div>
                     </div>
                     <div class="carousel-item">
-                        <h2 class="text-center mb-4"> <br>Мак-Карты</h2>
+                        <h2 class="text-center mb-4"> <br>Консультация с использованием МАК-карт</h2>
                         <p class="lead text-center">Инструмент метафорических картинок позволяет вам достать всю
                             информацию из подсознания. Как известно, все ответы у вас уже есть, надо только их увидеть.
                             Это не гипноз и не ворожба. Это сертифицированный метод, который мягко выводит вас на полное
@@ -308,37 +349,38 @@
         </div>
     </section>
 
-    <section class="p-5 reveal-always" id="questions">
-        <div class="container">
-            <div class="row row-cols-4 text-center g-4">
+    <section class="reveal-always" id="replies">
+        <div class="container text-center pb-5">
+            <h2 class="text-center mb-4"> <br>Отзывы</h2>
+            <div class="row row-cols-4 text-center g-4 pt-5">
                 <div class="col">
-                    <div class="card bg-dark navbar-dark text-light">
+                    <div class="card bg-dark navbar-dark text-light align-items-center pb-3">
                         <div class="card-body">
-                            <h5 class="card-title">Отзыв от</h5>
+                            <h5 class="card-title">Отзыв от Елены</h5>
                         </div>
                         <img class="img-fluid d-sm-block" src="images/Аннотация 2022-12-08 123158.jpg" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-dark navbar-dark text-light">
+                    <div class="card bg-dark navbar-dark text-light align-items-center pb-3">
                         <div class="card-body">
-                            <h5 class="card-title">Отзыв от</h5>
+                            <h5 class="card-title">Отзыв от Анастасии</h5>
                         </div>
                         <img class="img-fluid d-sm-block" src="images/Аннотация 2022-12-06 164903.jpg" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-dark navbar-dark text-light">
+                    <div class="card bg-dark navbar-dark text-light align-items-center pb-3">
                         <div class="card-body">
-                            <h5 class="card-title">Отзыв от</h5>
+                            <h5 class="card-title">Отзыв от Евгении</h5>
                         </div>
                         <img class="img-fluid d-sm-block" src="images/Аннотация 2022-12-06 165036.jpg" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-dark navbar-dark text-light">
+                    <div class="card bg-dark navbar-dark text-light align-items-center pb-3">
                         <div class="card-body">
-                            <h5 class="card-title">Отзыв от</h5>
+                            <h5 class="card-title">Отзыв от Екатерины</h5>
                         </div>
                         <img class="img-fluid d-sm-block" src="images/Аннотация 2022-12-06 165138.jpg" alt="">
                     </div>
@@ -348,7 +390,7 @@
     </section>
 
     <!-- Questions -->
-    <section class="p-2 pt-lg-2 text-center text-md-start reveal-always" id="questions">
+    <section class="p-2 pb-5 pt-lg-2 bg-dark text-light text-center text-md-start reveal-always" id="questions">
         <div class="container">
             <h2 class="text-center mb-4"> <br>Часто задаваемые вопросы</h2>
             <div class="accordion" id="accordionExample">
@@ -423,18 +465,53 @@
                             placeholder="Ваши комментарии">
                     </div>
                 </div>
+                <div class="row p-1 text-start">
+                    <div class="col p-1">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Индивидуальная консультация
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Марафон консультация
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col p-1">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Курс Самооценка
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Консультация с использованием МАК-карт
+                            </label>
+                        </div>
+                    </div>
+                </div>
                 <div class="row p-1">
                     <div class="col p-1">
                         <button type="submit" class="btn btn-primary">Отправить</button>
                     </div>
                 </div>
-                <div class="row pb-3 pt-5">
-                    <div class="col">
-                        <h2 class="mb-4">Мои контакты:</h2>
-                    </div>
-                </div>
             </form>
-            <div class="row">
+    </section>
+
+
+    <section class="bg-light text-dark text-center text-md-start reveal-always" id="contacts">
+        <div class="container text-center">
+            <div class="row pb-3 pt-5">
+                <div class="col">
+                    <h2 class="mb-4">Мои контакты:</h2>
+                </div>
+            </div>
+            <div class="row row-cols-3">
                 <div class="col border p-2 instagram-border">
                     <p>Instagram: <br> <a href="https://www.instagram.com/belcencovatat/" target="_blank">
                             @belcencovatat </a> <br> </p>
@@ -448,13 +525,71 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <!-- footer -->
 
+    <!-- articles -->
+
+    <section class="bg-light text-dark p-5 pt-lg-5 text-center text-md-start reveal-always" id="article">
+        <div class="container text-center">
+            <h2 class="text-center mb-4"> <br>ЧИТАТЬ СТАТЬИ</h2>
+            <div class="row row-cols-3 p-1">
+                <div class="col p-1">
+                    <div class="card align-items-center">
+                        <div class="pt-3"><img class="img-fluid d-sm-block" src="images/Group-285-1.webp" width="300" height="258"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Джокер</h5>
+                            <p class="text-start ps-lg-4 ps-3"> Итак, даю обещанный своим читателям в инстаграмме разбор по фильму
+                                «Джокер». Важно! До
+                                того, как прочесть этот текст, рекомендую посмотреть сам фильм, он действительно того
+                                стоит. Прежде всего, потому, что каждый из нас может найти в том, что показали его
+                                создатели, что-то про себя и свою жизнь. Итак, первые образы фильма, именно они
+                                определяют весь… </p>
+                            <a href="HTML/dzoker.html">Читать полностью..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div class="card align-items-center">
+                        <div class="pt-3"><img class="img-fluid d-sm-block" src="images/Group-285-1.webp" width="300" height="258"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Джокер</h5>
+                            <p class="text-start ps-lg-4 ps-3"> Итак, даю обещанный своим читателям в инстаграмме разбор по фильму
+                                «Джокер». Важно! До
+                                того, как прочесть этот текст, рекомендую посмотреть сам фильм, он действительно того
+                                стоит. Прежде всего, потому, что каждый из нас может найти в том, что показали его
+                                создатели, что-то про себя и свою жизнь. Итак, первые образы фильма, именно они
+                                определяют весь… </p>
+                            <a href="HTML/dzoker.html">Читать полностью..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div class="card align-items-center">
+                        <div class="pt-3"><img class="img-fluid d-sm-block" src="images/Group-285-1.webp" width="300" height="258"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Джокер</h5>
+                            <p class="text-start ps-lg-4 ps-3"> Итак, даю обещанный своим читателям в инстаграмме разбор по фильму
+                                «Джокер». Важно! До
+                                того, как прочесть этот текст, рекомендую посмотреть сам фильм, он действительно того
+                                стоит. Прежде всего, потому, что каждый из нас может найти в том, что показали его
+                                создатели, что-то про себя и свою жизнь. Итак, первые образы фильма, именно они
+                                определяют весь… </p>
+                            <a href="HTML/dzoker.html">Читать полностью..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pb-4"><button type="button" class="btn btn-primary "><a href="HTML/stati.html"
+                        class="p-2 text-white">Больше статей</a></button></div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
     <footer class="p-5 bg-dark text-white position-relative reveal-always">
         <div class="container">
             <p class="lead text-center">Copyright &copy; 2022 Mama site</p> <br> <a href="" target="_blank">
-                <p class="text-center">Политика конфиденциальности</p>
             </a>
         </div>
     </footer>
@@ -463,7 +598,6 @@
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <link href="PHP/email.php">
 
     <script>
         ScrollReveal().reveal('.reveal-always', { origin: 'top', reset: true, duration: 1500 })
